@@ -1,0 +1,6 @@
+framework module AES256Swift {
+  umbrella header "AES256Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
