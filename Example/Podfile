@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AES256Swift_Example' do
+  pod 'AES256Swift', :path => '../'
+
+  target 'AES256Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
