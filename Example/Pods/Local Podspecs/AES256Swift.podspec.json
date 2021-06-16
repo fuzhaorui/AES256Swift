@@ -1,9 +1,9 @@
 {
   "name": "AES256Swift",
-  "version": "0.1.0",
-  "summary": "A short description of AES256Swift.",
+  "version": "0.1.1",
+  "summary": "快速实现aes256的加码和解码",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/FZR/AES256Swift",
+  "homepage": "https://github.com/fuzhaorui/AES256Swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,14 @@
     "FZR": "595878709@qq.com"
   },
   "source": {
-    "git": "https://github.com/FZR/AES256Swift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/fuzhaorui/AES256Swift.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "source_files": "AES256Swift/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h,*.swift"
+  "public_header_files": "AES256Swift/Classes/**/*.h",
+  "swift_version": "5.0"
 }

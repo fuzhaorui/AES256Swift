@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AES256Swift'#库的名字
-  s.version          = '0.1.0'#版本号,后面上传到远端一定要和tag一致
-  s.summary          = 'A short description of AES256Swift.'#对库的描述
+  s.version          = '0.1.1'#版本号,后面上传到远端一定要和tag一致
+  s.summary          = '快速实现aes256的加码和解码'#对库的描述
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/FZR/AES256Swift'#库的主页
+  s.homepage         = 'https://github.com/fuzhaorui/AES256Swift'#库的主页
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }#配置的license文件
   s.author           = { 'FZR' => '595878709@qq.com' }
-  s.source           = { :git => 'https://github.com/FZR/AES256Swift.git', :tag => s.version.to_s } #库上传的远端地址(默认出来的地址是不正确,要把你远端的地址替换掉)
+  s.source           = { :git => 'https://github.com/fuzhaorui/AES256Swift.git', :tag => s.version.to_s } #库上传的远端地址(默认出来的地址是不正确,要把你远端的地址替换掉)
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0' #依赖最小版本
+  
+  s.swift_version = '5.0'
 
 
   s.source_files = 'AES256Swift/Classes/**/*' #设置 源文件路径 => 不是整个工程的文件,而是自己封装的代码,以后别的工程引入,就会引入这里的代码.
@@ -38,7 +40,7 @@ TODO: Add long description of the pod here.
   #   'AES256Swift' => ['AES256Swift/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h,*.swift'
+  s.public_header_files = 'AES256Swift/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

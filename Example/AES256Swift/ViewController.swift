@@ -37,21 +37,13 @@ class ViewController: UIViewController {
             
         print(NSString(data: data2 as Data, encoding: String.Encoding.utf8.rawValue)! as String)
         
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
+        
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
-        
-
-        
-        
-        
-        
-        
+  
     
     }
 
