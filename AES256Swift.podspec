@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AES256Swift'#库的名字
-  s.version          = '0.1.1'#版本号,后面上传到远端一定要和tag一致
+  s.version          = '1.0.0'#版本号,后面上传到远端一定要和tag一致
   s.summary          = '快速实现aes256的加码和解码'#对库的描述
 
 # This description is used to generate tags and improve search results.
