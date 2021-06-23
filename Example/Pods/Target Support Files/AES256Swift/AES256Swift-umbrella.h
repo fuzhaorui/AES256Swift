@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "AES256Swift-Header.h"
 #import "NSData+AES256.h"
 #import "NSString+AES256.h"
+#import "AES256Swift-Header.h"
 
 FOUNDATION_EXPORT double AES256SwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char AES256SwiftVersionString[];

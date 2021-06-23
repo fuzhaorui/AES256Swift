@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E00000220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
-		46EB2E00000250 /* AESKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* AESKey.swift */; };
-		46EB2E00000260 /* AES256Swift-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000D0 /* AES256Swift-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000002E0 /* AES256Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* AES256Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000320 /* AES256Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* AES256Swift-dummy.m */; };
-		46EB2E000003C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
-		46EB2E00000430 /* Pods-AES256Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000420 /* Pods-AES256Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000480 /* Pods-AES256Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000470 /* Pods-AES256Swift_Example-dummy.m */; };
-		46EB2E00000520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
-		46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000580 /* Pods-AES256Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* Pods-AES256Swift_Tests-dummy.m */; };
-		62AF8B6226831A840072E1F7 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF8B5E26831A840072E1F7 /* NSData+AES256.m */; };
-		62AF8B6326831A840072E1F7 /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AF8B5F26831A840072E1F7 /* NSString+AES256.h */; };
-		62AF8B6426831A840072E1F7 /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AF8B6026831A840072E1F7 /* NSData+AES256.h */; };
-		62AF8B6526831A840072E1F7 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF8B6126831A840072E1F7 /* NSString+AES256.m */; };
+		46EB2E00000230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* Foundation.framework */; };
+		46EB2E00000240 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NSData+AES256.m */; };
+		46EB2E00000250 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* NSString+AES256.m */; };
+		46EB2E00000260 /* AESKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* AESKey.swift */; };
+		46EB2E00000270 /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000280 /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* NSString+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000290 /* AES256Swift-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* AES256Swift-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000002F0 /* AES256Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* AES256Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000330 /* AES256Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* AES256Swift-dummy.m */; };
+		46EB2E000003D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* Foundation.framework */; };
+		46EB2E00000440 /* Pods-AES256Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000430 /* Pods-AES256Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000490 /* Pods-AES256Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000480 /* Pods-AES256Swift_Example-dummy.m */; };
+		46EB2E00000530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* Foundation.framework */; };
+		46EB2E000005A0 /* Pods-AES256Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005E0 /* Pods-AES256Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E000005E0 /* PBXContainerItemProxy */ = {
+		46EB2E000005F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC7C106D6A43A799938F32942AE83DA9;
 			remoteInfo = AES256Swift;
 		};
-		46EB2E00000600 /* PBXContainerItemProxy */ = {
+		46EB2E00000610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -42,68 +42,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06787BCB394BC4DECE7E9DE281E44177 /* AES256Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AES256Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D3ACB7357BE772E490014BDCB41FDBD /* Pods_AES256Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AES256Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6C854E3A2C599719EFB209A632D89C /* Pods_AES256Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AES256Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000D0 /* AES256Swift-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AES256Swift-Header.h"; path = "AES256Swift/Classes/AES256Swift-Header.h"; sourceTree = "<group>"; };
-		46EB2E000000E0 /* AESKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AESKey.swift; path = AES256Swift/Classes/AESKey.swift; sourceTree = "<group>"; };
-		46EB2E00000140 /* AES256Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AES256Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E00000160 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46EB2E00000210 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E000002A0 /* AES256Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AES256Swift.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E000002B0 /* AES256Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AES256Swift.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E000002C0 /* AES256Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AES256Swift.modulemap; sourceTree = "<group>"; };
-		46EB2E000002D0 /* AES256Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AES256Swift-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000002F0 /* AES256Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AES256Swift-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000300 /* AES256Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AES256Swift-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000310 /* AES256Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AES256Swift-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000003E0 /* Pods-AES256Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000003F0 /* Pods-AES256Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000400 /* Pods-AES256Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Example-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000410 /* Pods-AES256Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AES256Swift_Example.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000420 /* Pods-AES256Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AES256Swift_Example-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000440 /* Pods-AES256Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AES256Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000450 /* Pods-AES256Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000460 /* Pods-AES256Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AES256Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000470 /* Pods-AES256Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AES256Swift_Example-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000540 /* Pods-AES256Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000550 /* Pods-AES256Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000560 /* Pods-AES256Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Tests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000570 /* Pods-AES256Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AES256Swift_Tests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000580 /* Pods-AES256Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AES256Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000005A0 /* Pods-AES256Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000005B0 /* Pods-AES256Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AES256Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000005C0 /* Pods-AES256Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AES256Swift_Tests-dummy.m"; sourceTree = "<group>"; };
-		62AF8B5E26831A840072E1F7 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
-		62AF8B5F26831A840072E1F7 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
-		62AF8B6026831A840072E1F7 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
-		62AF8B6126831A840072E1F7 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		06787BCB394BC4DECE7E9DE281E44177 /* AES256Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AES256Swift.framework; path = AES256Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3ACB7357BE772E490014BDCB41FDBD /* Pods_AES256Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AES256Swift_Example.framework; path = "Pods-AES256Swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6C854E3A2C599719EFB209A632D89C /* Pods_AES256Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AES256Swift_Tests.framework; path = "Pods-AES256Swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000E0 /* NSData+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		46EB2E000000F0 /* NSData+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		46EB2E00000100 /* NSString+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		46EB2E00000110 /* NSString+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		46EB2E00000120 /* AES256Swift-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AES256Swift-Header.h"; path = "AES256Swift/Classes/AES256Swift-Header.h"; sourceTree = "<group>"; };
+		46EB2E00000130 /* AESKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AESKey.swift; path = AES256Swift/Classes/AESKey.swift; sourceTree = "<group>"; };
+		46EB2E00000150 /* AES256Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AES256Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000160 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00000170 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E000002B0 /* AES256Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AES256Swift.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E000002C0 /* AES256Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AES256Swift.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E000002D0 /* AES256Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AES256Swift.modulemap; sourceTree = "<group>"; };
+		46EB2E000002E0 /* AES256Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AES256Swift-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000300 /* AES256Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AES256Swift-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000310 /* AES256Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AES256Swift-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000320 /* AES256Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AES256Swift-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000003F0 /* Pods-AES256Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000400 /* Pods-AES256Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000410 /* Pods-AES256Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Example-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000420 /* Pods-AES256Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AES256Swift_Example.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000430 /* Pods-AES256Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AES256Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000450 /* Pods-AES256Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AES256Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00000460 /* Pods-AES256Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000470 /* Pods-AES256Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AES256Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000480 /* Pods-AES256Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AES256Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000550 /* Pods-AES256Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000560 /* Pods-AES256Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AES256Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000570 /* Pods-AES256Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Tests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000580 /* Pods-AES256Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AES256Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AES256Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000005B0 /* Pods-AES256Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000005C0 /* Pods-AES256Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AES256Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AES256Swift_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E000001E0 /* Frameworks */ = {
+		46EB2E000001F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000220 /* Foundation.framework in Frameworks */,
+				46EB2E00000230 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000003A0 /* Frameworks */ = {
+		46EB2E000003B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000003C0 /* Foundation.framework in Frameworks */,
+				46EB2E000003D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000500 /* Frameworks */ = {
+		46EB2E00000510 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000520 /* Foundation.framework in Frameworks */,
+				46EB2E00000530 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000200 /* iOS */,
+				46EB2E00000210 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000003D0 /* Pods-AES256Swift_Example */,
-				46EB2E00000530 /* Pods-AES256Swift_Tests */,
+				46EB2E000003E0 /* Pods-AES256Swift_Example */,
+				46EB2E00000540 /* Pods-AES256Swift_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -159,121 +159,121 @@
 		46EB2E000000B0 /* AES256Swift */ = {
 			isa = PBXGroup;
 			children = (
-				62AF8B5D26831A840072E1F7 /* AES256 */,
-				46EB2E000000D0 /* AES256Swift-Header.h */,
-				46EB2E000000E0 /* AESKey.swift */,
-				46EB2E00000130 /* Pod */,
-				46EB2E00000290 /* Support Files */,
+				46EB2E00000120 /* AES256Swift-Header.h */,
+				46EB2E00000130 /* AESKey.swift */,
+				46EB2E000000D0 /* AES256 */,
+				46EB2E00000140 /* Pod */,
+				46EB2E000002A0 /* Support Files */,
 			);
 			name = AES256Swift;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		46EB2E00000130 /* Pod */ = {
+		46EB2E000000D0 /* AES256 */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000140 /* AES256Swift.podspec */,
-				46EB2E00000150 /* LICENSE */,
-				46EB2E00000160 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		46EB2E00000200 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000210 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		46EB2E00000290 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E000002C0 /* AES256Swift.modulemap */,
-				46EB2E00000310 /* AES256Swift-dummy.m */,
-				46EB2E000002F0 /* AES256Swift-Info.plist */,
-				46EB2E00000300 /* AES256Swift-prefix.pch */,
-				46EB2E000002D0 /* AES256Swift-umbrella.h */,
-				46EB2E000002A0 /* AES256Swift.debug.xcconfig */,
-				46EB2E000002B0 /* AES256Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AES256Swift";
-			sourceTree = "<group>";
-		};
-		46EB2E000003D0 /* Pods-AES256Swift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000410 /* Pods-AES256Swift_Example.modulemap */,
-				46EB2E00000460 /* Pods-AES256Swift_Example-acknowledgements.markdown */,
-				46EB2E00000450 /* Pods-AES256Swift_Example-acknowledgements.plist */,
-				46EB2E00000470 /* Pods-AES256Swift_Example-dummy.m */,
-				46EB2E00000440 /* Pods-AES256Swift_Example-frameworks.sh */,
-				46EB2E00000400 /* Pods-AES256Swift_Example-Info.plist */,
-				46EB2E00000420 /* Pods-AES256Swift_Example-umbrella.h */,
-				46EB2E000003F0 /* Pods-AES256Swift_Example.debug.xcconfig */,
-				46EB2E000003E0 /* Pods-AES256Swift_Example.release.xcconfig */,
-			);
-			name = "Pods-AES256Swift_Example";
-			path = "Target Support Files/Pods-AES256Swift_Example";
-			sourceTree = "<group>";
-		};
-		46EB2E00000530 /* Pods-AES256Swift_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				46EB2E00000570 /* Pods-AES256Swift_Tests.modulemap */,
-				46EB2E000005B0 /* Pods-AES256Swift_Tests-acknowledgements.markdown */,
-				46EB2E000005A0 /* Pods-AES256Swift_Tests-acknowledgements.plist */,
-				46EB2E000005C0 /* Pods-AES256Swift_Tests-dummy.m */,
-				46EB2E00000560 /* Pods-AES256Swift_Tests-Info.plist */,
-				46EB2E00000580 /* Pods-AES256Swift_Tests-umbrella.h */,
-				46EB2E00000550 /* Pods-AES256Swift_Tests.debug.xcconfig */,
-				46EB2E00000540 /* Pods-AES256Swift_Tests.release.xcconfig */,
-			);
-			name = "Pods-AES256Swift_Tests";
-			path = "Target Support Files/Pods-AES256Swift_Tests";
-			sourceTree = "<group>";
-		};
-		62AF8B5D26831A840072E1F7 /* AES256 */ = {
-			isa = PBXGroup;
-			children = (
-				62AF8B5E26831A840072E1F7 /* NSData+AES256.m */,
-				62AF8B5F26831A840072E1F7 /* NSString+AES256.h */,
-				62AF8B6026831A840072E1F7 /* NSData+AES256.h */,
-				62AF8B6126831A840072E1F7 /* NSString+AES256.m */,
+				46EB2E000000E0 /* NSData+AES256.h */,
+				46EB2E000000F0 /* NSData+AES256.m */,
+				46EB2E00000100 /* NSString+AES256.h */,
+				46EB2E00000110 /* NSString+AES256.m */,
 			);
 			name = AES256;
 			path = AES256Swift/Classes/AES256;
 			sourceTree = "<group>";
 		};
+		46EB2E00000140 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000150 /* AES256Swift.podspec */,
+				46EB2E00000160 /* LICENSE */,
+				46EB2E00000170 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46EB2E00000210 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000220 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46EB2E000002A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000002D0 /* AES256Swift.modulemap */,
+				46EB2E00000320 /* AES256Swift-dummy.m */,
+				46EB2E00000300 /* AES256Swift-Info.plist */,
+				46EB2E00000310 /* AES256Swift-prefix.pch */,
+				46EB2E000002E0 /* AES256Swift-umbrella.h */,
+				46EB2E000002B0 /* AES256Swift.debug.xcconfig */,
+				46EB2E000002C0 /* AES256Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AES256Swift";
+			sourceTree = "<group>";
+		};
+		46EB2E000003E0 /* Pods-AES256Swift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000420 /* Pods-AES256Swift_Example.modulemap */,
+				46EB2E00000470 /* Pods-AES256Swift_Example-acknowledgements.markdown */,
+				46EB2E00000460 /* Pods-AES256Swift_Example-acknowledgements.plist */,
+				46EB2E00000480 /* Pods-AES256Swift_Example-dummy.m */,
+				46EB2E00000450 /* Pods-AES256Swift_Example-frameworks.sh */,
+				46EB2E00000410 /* Pods-AES256Swift_Example-Info.plist */,
+				46EB2E00000430 /* Pods-AES256Swift_Example-umbrella.h */,
+				46EB2E00000400 /* Pods-AES256Swift_Example.debug.xcconfig */,
+				46EB2E000003F0 /* Pods-AES256Swift_Example.release.xcconfig */,
+			);
+			name = "Pods-AES256Swift_Example";
+			path = "Target Support Files/Pods-AES256Swift_Example";
+			sourceTree = "<group>";
+		};
+		46EB2E00000540 /* Pods-AES256Swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000580 /* Pods-AES256Swift_Tests.modulemap */,
+				46EB2E000005C0 /* Pods-AES256Swift_Tests-acknowledgements.markdown */,
+				46EB2E000005B0 /* Pods-AES256Swift_Tests-acknowledgements.plist */,
+				46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m */,
+				46EB2E00000570 /* Pods-AES256Swift_Tests-Info.plist */,
+				46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h */,
+				46EB2E00000560 /* Pods-AES256Swift_Tests.debug.xcconfig */,
+				46EB2E00000550 /* Pods-AES256Swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-AES256Swift_Tests";
+			path = "Target Support Files/Pods-AES256Swift_Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E000001C0 /* Headers */ = {
+		46EB2E000001D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62AF8B6326831A840072E1F7 /* NSString+AES256.h in Headers */,
-				62AF8B6426831A840072E1F7 /* NSData+AES256.h in Headers */,
-				46EB2E00000260 /* AES256Swift-Header.h in Headers */,
-				46EB2E000002E0 /* AES256Swift-umbrella.h in Headers */,
+				46EB2E00000290 /* AES256Swift-Header.h in Headers */,
+				46EB2E000002F0 /* AES256Swift-umbrella.h in Headers */,
+				46EB2E00000270 /* NSData+AES256.h in Headers */,
+				46EB2E00000280 /* NSString+AES256.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000380 /* Headers */ = {
+		46EB2E00000390 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000430 /* Pods-AES256Swift_Example-umbrella.h in Headers */,
+				46EB2E00000440 /* Pods-AES256Swift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000004E0 /* Headers */ = {
+		46EB2E000004F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h in Headers */,
+				46EB2E000005A0 /* Pods-AES256Swift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +282,17 @@
 /* Begin PBXNativeTarget section */
 		45AAB7E29965C4E6650D28B839235078 /* Pods-AES256Swift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000340 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Example" */;
+			buildConfigurationList = 46EB2E00000350 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Example" */;
 			buildPhases = (
-				46EB2E00000380 /* Headers */,
-				46EB2E00000390 /* Sources */,
-				46EB2E000003A0 /* Frameworks */,
-				46EB2E000003B0 /* Resources */,
+				46EB2E00000390 /* Headers */,
+				46EB2E000003A0 /* Sources */,
+				46EB2E000003B0 /* Frameworks */,
+				46EB2E000003C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E000005F0 /* PBXTargetDependency */,
+				46EB2E00000600 /* PBXTargetDependency */,
 			);
 			name = "Pods-AES256Swift_Example";
 			productName = "Pods-AES256Swift_Example";
@@ -301,12 +301,12 @@
 		};
 		EC7C106D6A43A799938F32942AE83DA9 /* AES256Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000180 /* Build configuration list for PBXNativeTarget "AES256Swift" */;
+			buildConfigurationList = 46EB2E00000190 /* Build configuration list for PBXNativeTarget "AES256Swift" */;
 			buildPhases = (
-				46EB2E000001C0 /* Headers */,
-				46EB2E000001D0 /* Sources */,
-				46EB2E000001E0 /* Frameworks */,
-				46EB2E000001F0 /* Resources */,
+				46EB2E000001D0 /* Headers */,
+				46EB2E000001E0 /* Sources */,
+				46EB2E000001F0 /* Frameworks */,
+				46EB2E00000200 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,17 +319,17 @@
 		};
 		F8C9808C68EEF1817F3A920F22CA275E /* Pods-AES256Swift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000004A0 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Tests" */;
+			buildConfigurationList = 46EB2E000004B0 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Tests" */;
 			buildPhases = (
-				46EB2E000004E0 /* Headers */,
-				46EB2E000004F0 /* Sources */,
-				46EB2E00000500 /* Frameworks */,
-				46EB2E00000510 /* Resources */,
+				46EB2E000004F0 /* Headers */,
+				46EB2E00000500 /* Sources */,
+				46EB2E00000510 /* Frameworks */,
+				46EB2E00000520 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000610 /* PBXTargetDependency */,
+				46EB2E00000620 /* PBXTargetDependency */,
 			);
 			name = "Pods-AES256Swift_Tests";
 			productName = "Pods-AES256Swift_Tests";
@@ -343,7 +343,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,21 +366,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E000001F0 /* Resources */ = {
+		46EB2E00000200 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000003B0 /* Resources */ = {
+		46EB2E000003C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000510 /* Resources */ = {
+		46EB2E00000520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,47 +390,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E000001D0 /* Sources */ = {
+		46EB2E000001E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000320 /* AES256Swift-dummy.m in Sources */,
-				62AF8B6526831A840072E1F7 /* NSString+AES256.m in Sources */,
-				62AF8B6226831A840072E1F7 /* NSData+AES256.m in Sources */,
-				46EB2E00000250 /* AESKey.swift in Sources */,
+				46EB2E00000330 /* AES256Swift-dummy.m in Sources */,
+				46EB2E00000260 /* AESKey.swift in Sources */,
+				46EB2E00000240 /* NSData+AES256.m in Sources */,
+				46EB2E00000250 /* NSString+AES256.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000390 /* Sources */ = {
+		46EB2E000003A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000480 /* Pods-AES256Swift_Example-dummy.m in Sources */,
+				46EB2E00000490 /* Pods-AES256Swift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000004F0 /* Sources */ = {
+		46EB2E00000500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m in Sources */,
+				46EB2E000005E0 /* Pods-AES256Swift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E000005F0 /* PBXTargetDependency */ = {
+		46EB2E00000600 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AES256Swift;
 			target = EC7C106D6A43A799938F32942AE83DA9 /* AES256Swift */;
-			targetProxy = 46EB2E000005E0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000005F0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000610 /* PBXTargetDependency */ = {
+		46EB2E00000620 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AES256Swift_Example";
 			target = 45AAB7E29965C4E6650D28B839235078 /* Pods-AES256Swift_Example */;
-			targetProxy = 46EB2E00000600 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000610 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -556,15 +556,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		46EB2E00000190 /* Release */ = {
+		46EB2E000001A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000002B0 /* AES256Swift.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000002C0 /* AES256Swift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -594,9 +595,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000001A0 /* Debug */ = {
+		46EB2E000001B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000002A0 /* AES256Swift.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000002B0 /* AES256Swift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -625,9 +626,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000350 /* Release */ = {
+		46EB2E00000360 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000003E0 /* Pods-AES256Swift_Example.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000003F0 /* Pods-AES256Swift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -659,9 +660,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000360 /* Debug */ = {
+		46EB2E00000370 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000003F0 /* Pods-AES256Swift_Example.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000400 /* Pods-AES256Swift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -692,9 +693,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000004B0 /* Release */ = {
+		46EB2E000004C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000540 /* Pods-AES256Swift_Tests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000550 /* Pods-AES256Swift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -726,9 +727,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000004C0 /* Debug */ = {
+		46EB2E000004D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000550 /* Pods-AES256Swift_Tests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000560 /* Pods-AES256Swift_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -771,29 +772,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000180 /* Build configuration list for PBXNativeTarget "AES256Swift" */ = {
+		46EB2E00000190 /* Build configuration list for PBXNativeTarget "AES256Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000001A0 /* Debug */,
-				46EB2E00000190 /* Release */,
+				46EB2E000001B0 /* Debug */,
+				46EB2E000001A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000340 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Example" */ = {
+		46EB2E00000350 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000360 /* Debug */,
-				46EB2E00000350 /* Release */,
+				46EB2E00000370 /* Debug */,
+				46EB2E00000360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000004A0 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Tests" */ = {
+		46EB2E000004B0 /* Build configuration list for PBXNativeTarget "Pods-AES256Swift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000004C0 /* Debug */,
-				46EB2E000004B0 /* Release */,
+				46EB2E000004D0 /* Debug */,
+				46EB2E000004C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
