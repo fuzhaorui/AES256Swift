@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		46EB2E00000220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
-		46EB2E00000230 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* NSData+AES256.m */; };
-		46EB2E00000240 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* NSString+AES256.m */; };
 		46EB2E00000250 /* AESKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* AESKey.swift */; };
 		46EB2E00000260 /* AES256Swift-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000D0 /* AES256Swift-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000270 /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000280 /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* NSString+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EB2E000002E0 /* AES256Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* AES256Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EB2E00000320 /* AES256Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* AES256Swift-dummy.m */; };
 		46EB2E000003C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
@@ -22,6 +18,10 @@
 		46EB2E00000520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Foundation.framework */; };
 		46EB2E00000590 /* Pods-AES256Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000580 /* Pods-AES256Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EB2E000005D0 /* Pods-AES256Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000005C0 /* Pods-AES256Swift_Tests-dummy.m */; };
+		62AF8B6226831A840072E1F7 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF8B5E26831A840072E1F7 /* NSData+AES256.m */; };
+		62AF8B6326831A840072E1F7 /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AF8B5F26831A840072E1F7 /* NSString+AES256.h */; };
+		62AF8B6426831A840072E1F7 /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AF8B6026831A840072E1F7 /* NSData+AES256.h */; };
+		62AF8B6526831A840072E1F7 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AF8B6126831A840072E1F7 /* NSString+AES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +48,6 @@
 		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E000000D0 /* AES256Swift-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AES256Swift-Header.h"; path = "AES256Swift/Classes/AES256Swift-Header.h"; sourceTree = "<group>"; };
 		46EB2E000000E0 /* AESKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AESKey.swift; path = AES256Swift/Classes/AESKey.swift; sourceTree = "<group>"; };
-		46EB2E000000F0 /* NSData+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256.h"; path = "AES256Swift/Classes/NSData+AES256.h"; sourceTree = "<group>"; };
-		46EB2E00000100 /* NSData+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256.m"; path = "AES256Swift/Classes/NSData+AES256.m"; sourceTree = "<group>"; };
-		46EB2E00000110 /* NSString+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AES256.h"; path = "AES256Swift/Classes/NSString+AES256.h"; sourceTree = "<group>"; };
-		46EB2E00000120 /* NSString+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AES256.m"; path = "AES256Swift/Classes/NSString+AES256.m"; sourceTree = "<group>"; };
 		46EB2E00000140 /* AES256Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AES256Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		46EB2E00000160 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -80,6 +76,10 @@
 		46EB2E000005A0 /* Pods-AES256Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AES256Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E000005B0 /* Pods-AES256Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AES256Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E000005C0 /* Pods-AES256Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AES256Swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		62AF8B5E26831A840072E1F7 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		62AF8B5F26831A840072E1F7 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		62AF8B6026831A840072E1F7 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		62AF8B6126831A840072E1F7 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,12 +159,9 @@
 		46EB2E000000B0 /* AES256Swift */ = {
 			isa = PBXGroup;
 			children = (
+				62AF8B5D26831A840072E1F7 /* AES256 */,
 				46EB2E000000D0 /* AES256Swift-Header.h */,
 				46EB2E000000E0 /* AESKey.swift */,
-				46EB2E000000F0 /* NSData+AES256.h */,
-				46EB2E00000100 /* NSData+AES256.m */,
-				46EB2E00000110 /* NSString+AES256.h */,
-				46EB2E00000120 /* NSString+AES256.m */,
 				46EB2E00000130 /* Pod */,
 				46EB2E00000290 /* Support Files */,
 			);
@@ -238,6 +235,18 @@
 			path = "Target Support Files/Pods-AES256Swift_Tests";
 			sourceTree = "<group>";
 		};
+		62AF8B5D26831A840072E1F7 /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				62AF8B5E26831A840072E1F7 /* NSData+AES256.m */,
+				62AF8B5F26831A840072E1F7 /* NSString+AES256.h */,
+				62AF8B6026831A840072E1F7 /* NSData+AES256.h */,
+				62AF8B6126831A840072E1F7 /* NSString+AES256.m */,
+			);
+			name = AES256;
+			path = AES256Swift/Classes/AES256;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -245,10 +254,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AF8B6326831A840072E1F7 /* NSString+AES256.h in Headers */,
+				62AF8B6426831A840072E1F7 /* NSData+AES256.h in Headers */,
 				46EB2E00000260 /* AES256Swift-Header.h in Headers */,
 				46EB2E000002E0 /* AES256Swift-umbrella.h in Headers */,
-				46EB2E00000270 /* NSData+AES256.h in Headers */,
-				46EB2E00000280 /* NSString+AES256.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +395,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EB2E00000320 /* AES256Swift-dummy.m in Sources */,
+				62AF8B6526831A840072E1F7 /* NSString+AES256.m in Sources */,
+				62AF8B6226831A840072E1F7 /* NSData+AES256.m in Sources */,
 				46EB2E00000250 /* AESKey.swift in Sources */,
-				46EB2E00000230 /* NSData+AES256.m in Sources */,
-				46EB2E00000240 /* NSString+AES256.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
