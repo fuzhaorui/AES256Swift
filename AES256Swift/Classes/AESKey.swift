@@ -11,7 +11,6 @@ public class AESKey: NSObject {
      
     
     //  MARK: 共享实例
-       
     /// 共享实例
     public static let shared = AESKey()
     

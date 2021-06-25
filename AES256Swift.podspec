@@ -29,14 +29,11 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0' #依赖最小版本
-  s.osx.deployment_target = '10.9'
+#  s.osx.deployment_target = '10.9'
   
   s.requires_arc = true
-  
-  s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.9'
 
-  
+
   s.swift_version = '5.0'
 
   s.source_files = 'AES256Swift/Classes/**/*' #设置 源文件路径 => 不是整个工程的文件,而是自己封装的代码,以后别的工程引入,就会引入这里的代码.
