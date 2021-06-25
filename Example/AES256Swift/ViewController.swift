@@ -17,11 +17,17 @@ class ViewController: UIViewController {
         
         
         AESKey.setKey("sss")
+        
         let str:String = "sss"
+        
         let encryptStr:String = str.aes256Encrypt
+        
         print("加密后:" + encryptStr)
+        
         let decryptStr:String = encryptStr.aes256Decrypt
+        
         print("解密后:" + decryptStr)
+        
         
     }
 
