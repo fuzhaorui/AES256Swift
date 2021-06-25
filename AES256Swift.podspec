@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AES256Swift'#库的名字
-  s.version          = '1.0.2'#版本号,后面上传到远端一定要和tag一致
+  s.version          = '1.1.0'#版本号,后面上传到远端一定要和tag一致
   s.summary          = '快速实现aes256的加码和解码'#对库的描述
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0' #依赖最小版本
-#  s.osx.deployment_target = '10.9'
+  s.osx.deployment_target = '10.9'
   
   s.requires_arc = true
 

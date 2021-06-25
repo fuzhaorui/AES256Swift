@@ -1,5 +1,5 @@
 PODS:
-  - AES256Swift (1.0.2)
+  - AES256Swift (1.1.0)
 
 DEPENDENCIES:
   - AES256Swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AES256Swift: bb381de723a863159317863ae5e097ef9ab2238c
+  AES256Swift: 8bf14d43a0b609a1de0d943196aae3aeece8511a
 
 PODFILE CHECKSUM: da1c10ab309fce2997184bba035397074c53fe67
 
